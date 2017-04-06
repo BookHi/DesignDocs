@@ -5,7 +5,7 @@ use bookhi;
 create table user(
 	userid     INT UNSIGNED  NOT NULL AUTO_INCREMENT,
 	username   varchar(20)  NOT NULL,
-	pwd        varchar(20)  NOT NULL,
+	pwd        varchar(32)  NOT NULL,
 	nickname   varchar(30),
 	city         varchar(100),                     
 	lasttime     datetime,                     
